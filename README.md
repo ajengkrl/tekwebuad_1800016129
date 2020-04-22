@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # BukuAlamat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+=======
+# Tekweb1800016129
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+>>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
 
 ## Development server
 

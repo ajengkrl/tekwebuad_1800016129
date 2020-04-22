@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
  //import halaman dialog yang sudah dibuat pada tahap sebelumnya
 import {TambahAlamatComponent} from './tambah-alamat/tambah-alamat.component';
@@ -79,3 +80,15 @@ konfirmasiHapus(id)
     });
   }
   }
+=======
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './praktikum129.html',
+  styleUrls: ['./app.component.css'],
+  
+})
+export class AppComponent {
+  title = 'tekweb1800016129';
+}
+>>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7

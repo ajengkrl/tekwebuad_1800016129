@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+<<<<<<< HEAD
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,10 +18,19 @@ import { DetailAlamatComponent } from './detail-alamat/detail-alamat.component';
 import { DialogKonfirmasiComponent } from './dialog-konfirmasi/dialog-konfirmasi.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+=======
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/home/home.component';
+import { StudentComponent } from './pages/student/student.component';
+import { TeacherComponent } from './pages/teacher/teacher.component';
+>>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     TambahAlamatComponent,
     DetailAlamatComponent,
     DialogKonfirmasiComponent
@@ -45,6 +55,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     HttpClientModule,
     FormsModule
+=======
+    HomeComponent,
+    StudentComponent,
+    TeacherComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+>>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
   ],
   providers: [],
   bootstrap: [AppComponent]

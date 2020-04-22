@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('buku-alamat app is running!');
+=======
+    expect(page.getTitleText()).toEqual('tekweb1800016129 app is running!');
+>>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
   });
 
   afterEach(async () => {
