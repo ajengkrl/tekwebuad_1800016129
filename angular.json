@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
-    "buku-alamat": {
-=======
-    "tekweb1800016129": {
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+    "myuas": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,11 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
-            "outputPath": "dist/buku-alamat",
-=======
-            "outputPath": "dist/tekweb1800016129",
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+            "outputPath": "dist/myuas",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -32,10 +24,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-=======
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -74,30 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "buku-alamat:build"
+            "browserTarget": "myuas:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "buku-alamat:build:production"
-=======
-            "browserTarget": "tekweb1800016129:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "tekweb1800016129:build:production"
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+              "browserTarget": "myuas:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "buku-alamat:build"
-=======
-            "browserTarget": "tekweb1800016129:build"
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+            "browserTarget": "myuas:build"
           }
         },
         "test": {
@@ -112,10 +89,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-=======
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -138,33 +112,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
-            "devServerTarget": "buku-alamat:serve"
+            "devServerTarget": "myuas:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "buku-alamat:serve:production"
-=======
-            "devServerTarget": "tekweb1800016129:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "tekweb1800016129:serve:production"
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+              "devServerTarget": "myuas:serve:production"
             }
           }
         }
       }
     }
   },
-<<<<<<< HEAD
-  "defaultProject": "buku-alamat",
+  "defaultProject": "myuas",
   "cli": {
-    "analytics": "ace33918-66f7-49f9-8cf4-f52b8a002c0b"
-=======
-  "defaultProject": "tekweb1800016129",
-  "cli": {
-    "analytics": "fe857398-f5b1-40de-9a00-c5bf6b8ec217"
->>>>>>> 6aea6d22a07d72f22c3ce69807bbc025dde968f7
+    "analytics": "5811f2de-207c-4c83-9b7b-29284d4e8ca1"
   }
 }
